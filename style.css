@@ -1,0 +1,91 @@
+p {
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1;
+}
+
+/* Header starts here */
+.hero {
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #1098ad;
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  color: #1098ad;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.authorspan {
+  font-weight: bold;
+}
+
+/* Header section ends here. */
+
+/* Main starts here */
+h3 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #1098ad;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  font-size: 18px;
+  font-family: serif;
+}
+
+/* Main ends here */
+
+/* Aside starts here */
+.related {
+  list-style-type: none;
+}
+
+.related-author {
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#related {
+  color: #1098ad;
+}
+
+.aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  background-color: #f7f7f7;
+}
+
+/* Aside ends here */
+
+/* Footer starts here */
+#copyright {
+  font-size: 16px;
+  font-family: serif;
+}
+
+/* Footer ends here */
