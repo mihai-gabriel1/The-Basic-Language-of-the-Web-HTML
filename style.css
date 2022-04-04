@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
 p {
   font-size: 22px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -14,6 +19,7 @@ h1 {
   font-size: 26px;
   font-family: sans-serif;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 h2 {
@@ -84,8 +90,33 @@ li {
 
 /* Footer starts here */
 #copyright {
-  font-size: 16px;
+  color: rgb(100, 100, 36);
   font-family: serif;
+  font-size: 20px;
+  background-color: #f7f7f7;
 }
 
 /* Footer ends here */
+
+a {
+  color: #1098ad;
+}
+
+a:link {
+  color: #1098ad;
+}
+
+a:hover {
+  font-weight: bolder;
+  font-size: 22px;
+  text-decoration: underline dotted #1098ad;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
