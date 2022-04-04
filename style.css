@@ -1,17 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 900px;
+  margin: auto;
+}
+
 p {
   font-size: 22px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  line-height: 1;
+  line-height: 1.5;
+  margin-left: 10px;
 }
 
 /* Header starts here */
 .hero {
   background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.header {
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -26,17 +43,22 @@ h2 {
   font-size: 40px;
   color: #1098ad;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
 }
 
 .nav {
   display: flex;
   gap: 10px;
   list-style-type: none;
-  margin-left: -40px;
 }
 
 a {
   text-decoration: none;
+}
+
+.header p {
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .authorspan {
@@ -50,6 +72,11 @@ h3 {
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #1098ad;
+  margin-bottom: 40px;
+}
+
+.learn {
+  margin-top: 30px;
 }
 
 h4 {
@@ -62,6 +89,15 @@ h4 {
 li {
   font-size: 18px;
   font-family: serif;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.main p {
+  margin: 10px;
 }
 
 /* Main ends here */
@@ -69,6 +105,8 @@ li {
 /* Aside starts here */
 .related {
   list-style-type: none;
+  margin: 10px;
+  padding: 10px;
 }
 
 .related-author {
@@ -84,6 +122,8 @@ li {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   background-color: #f7f7f7;
+  padding: 50px 0;
+  margin-top: 30px;
 }
 
 /* Aside ends here */
@@ -119,4 +159,23 @@ a:visited {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+ul, ol {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+ol {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+  margin-left: 10px;
 }
