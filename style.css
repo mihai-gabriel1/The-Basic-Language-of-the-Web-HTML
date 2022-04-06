@@ -9,10 +9,17 @@ body {
   border-top: 10px solid #1098ad;
   position: relative;
 }
+.general {
+  width: 1200px;
+  display: flex;
+  align-items: flex-start;
+  flex: 1  ;
+  gap: 50px;
+}
 
 .container {
-  width: 1200px;
   margin: auto;
+  max-width: 825px;
 }
 
 p {
@@ -26,8 +33,10 @@ p {
 .hero {
   background-color: #f7f7f7;
   margin-bottom: 10px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .title {
@@ -55,7 +64,7 @@ h2::after {
   padding: 5px 10px;
   position: absolute;
   top: -25px;
-  right: 50px;
+  right: -10px;
 }
 
 h2 {
@@ -132,11 +141,15 @@ li:last-child {
   list-style-type: none;
   margin: 10px;
   padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .related-author {
   font-weight: bold;
   list-style-type: none;
+  margin-left: 0;
+  color: #1098ad;
 }
 
 #related {
@@ -157,7 +170,7 @@ li:last-child {
 #copyright {
   color: rgb(100, 100, 36);
   font-family: serif;
-  font-size: 20px;
+  font-size: 26px;
   background-color: #f7f7f7;
 }
 
@@ -213,4 +226,29 @@ h4 {
   right: 50px;
   width: 80px;
   height: 50px;
+}
+
+.related {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-bottom: 0;
+}
+
+.related-author {
+  font-size: 16px;
+}
+
+.related a:link {
+  font-size: 20px;
+}
+
+.aside {
+  max-width: 300px;
+  /* height: 550px; */
+  margin-top: 140px;
+}
+
+footer {
+
 }
