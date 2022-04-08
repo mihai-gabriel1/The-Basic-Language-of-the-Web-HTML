@@ -9,17 +9,43 @@ body {
   border-top: 10px solid #1098ad;
   position: relative;
 }
-.general {
+/* ----------------- */
+/* CSS Flexbox layout */
+
+/* .general {
   width: 1200px;
   display: flex;
   align-items: flex-start;
   flex: 1  ;
   gap: 50px;
+} */
+
+/* ------------- */
+
+/* CSS Grid layout */
+
+.general {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
+.article {
+  grid-column: 1 / span 2;
+}
+
+.aside {
+  grid-column: 2 / 3;
+  align-self: stretch;
+}
+
+
+/* CSS Grid layout */
 .container {
-  margin: auto;
-  max-width: 825px;
+  /* margin: auto; */
+  /* max-width: 825px; */
 }
 
 p {
@@ -162,6 +188,7 @@ li:last-child {
   background-color: #f7f7f7;
   padding: 50px 0;
   margin-top: 30px;
+  height: 600px;
 }
 
 /* Aside ends here */
@@ -247,8 +274,5 @@ h4 {
   max-width: 300px;
   /* height: 550px; */
   margin-top: 140px;
-}
-
-footer {
-
+  margin-right: 50px;
 }
